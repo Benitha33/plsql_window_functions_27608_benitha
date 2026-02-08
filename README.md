@@ -21,6 +21,7 @@ The company wants to:
 - Analyze sales growth trends  
 - Support strategic marketing and inventory decisions  
 
+![Alt text](path-or-filename.png)
 ---
 
 ## Ranking
@@ -35,6 +36,7 @@ The company wants to:
 - Works perfectly with `PARTITION BY region`  
 - Measurable  
 
+![Figure 1: Top 5 products per region using RANK/DENSE_RANK](screenshots/Ranking.JPG)
 ---
 
 ## Running Totals
@@ -49,6 +51,7 @@ The company wants to:
 - Uses required aggregate window function  
 - Easy to interpret  
 
+![Figure 2: Cumulative monthly sales using SUM window function](screenshots/Aggregate Window Functions.JPG)
 ---
 
 ## Month-over-Month Growth
@@ -63,6 +66,7 @@ The company wants to:
 - Helps detect increase or decrease  
 - Very analytical  
 
+![Figure 3: Sales comparison using LAG function](screenshots/Navigation Functions.JPG)
 ---
 
 ## Customer Segmentation
@@ -77,6 +81,7 @@ The company wants to:
 - Business-oriented  
 - Strong analysis point  
 
+![Figure 4: Customer quartiles using NTILE(4)](screenshots/Distribution Functions.JPG)
 ---
 
 ## Moving Average
@@ -85,3 +90,4 @@ The company wants to:
 
 **Window Function Used:**  
 - `AVG() OVER (ROWS BETWEEN 2 PRECEDING AND CURRENT ROW)`
+![Figure 5: 3-month moving average of sales](screenshots/Using RANGE Frame.JPG)
